@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+         version="6.0">
+
+    <!-- PARAMETROS DE CONTEXTO GLOBAL (EJERCICIO 7 - Inciso b) -->
+    <!-- Estas variables son visibles por toda la aplicación web en Tomcat -->
+    <context-param>
+        <param-name>nombre_sitio</param-name>
+        <param-value>La Patria es el Otro</param-value>
+    </context-param>
+
+    <context-param>
+        <param-name>email_contacto</param-name>
+        <param-value>lpeeo@correo.com</param-value>
+    </context-param>
+
+    <context-param>
+        <param-name>telefono_contacto</param-name>
+        <param-value>221 432 1234</param-value>
+    </context-param>
+
+
+    <welcome-file-list>
+        <welcome-file>login.html</welcome-file>
+    </welcome-file-list>
+
+</web-app>

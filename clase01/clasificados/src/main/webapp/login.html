@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Clasificados - Iniciar Sesión</title>
+</head>
+<body>
+<h1>Acceso al Sitio de Clasificados</h1>
+
+<!-- El formulario enviará los datos mediante POST al Servlet mapeado como "Login" -->
+<form action="Login" method="POST">
+    <div>
+        <label for="userField">Usuario:</label>
+        <input type="text" id="userField" name="usuario" required>
+    </div>
+    <br>
+    <!--
+    <div>
+        <label for="userOtherField">Correo (Opcional):</label>
+        <input type="email" id="userOtherField" name="correo">
+    </div>
+    <br>
+    -->
+    <div>
+        <label for="passField">Clave:</label>
+        <input type="password" id="passField" name="clave" required>
+    </div>
+    <br>
+
+    <!-- Campo 4: Recordar Sesión -->
+    <!--
+    <div>
+        <input type="checkbox" id="sessionField" name="recordar">
+        <label for="sessionField">Recordar mi sesión</label>
+    </div>
+    <br>
+    -->
+    <button type="submit">Ingresar</button>
+</form>
+</body>
+</html>

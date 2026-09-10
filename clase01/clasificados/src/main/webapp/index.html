@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Festival Capital - Promoción Remeras</title>
+</head>
+<body style="font-family: sans-serif; background-color: #f5f5f5; padding: 30px; text-align: center;">
+
+<div style="background-color: white; max-width: 500px; margin: 0 auto; padding: 20px; border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <h1 style="color: #e91e63;">¡Festival Capital!</h1>
+    <p style="color: #555;">Ingresa la frase que quieras estampar en tu remera de la promo y genera tu cupón de retiro.</p>
+    <hr style="border: 0; border-top: 1px solid #ddd; margin: 20px 0;">
+
+    <form action="ImprimeCupon" method="POST">
+        <label for="textoRemera" style="display: block; font-weight: bold; margin-bottom: 10px; text-align: left;">
+                Texto personalizado:</label>
+        <input type="text" id="textoRemera" name="texto" placeholder="Ej: TTPS presente" required
+               style="width: 95%; padding: 10px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 4px; font-size: 16px;">
+
+        <button type="submit" style="background-color: #e91e63; color: white; padding: 12px 24px; border: none;
+            border-radius: 4px; font-size: 16px; cursor: pointer; width: 100%;">
+            Generar Cupón de Retiro
+        </button>
+    </form>
+</div>
+
+</body>
+</html>
