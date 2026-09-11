@@ -1,9 +1,10 @@
-package ttps.clasificados;
+package ttps.clasificados.listeners;
 
 import jakarta.servlet.ServletContext;
 import jakarta.servlet.ServletContextEvent;
 import jakarta.servlet.ServletContextListener;
 import jakarta.servlet.annotation.WebListener;
+import ttps.clasificados.model.SitioClasificado;
 
 // La anotación @WebListener le avisa a Tomcat que registre esta clase como un oyente de eventos
 @WebListener

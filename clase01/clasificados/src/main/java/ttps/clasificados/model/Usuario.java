@@ -1,4 +1,4 @@
-package ttps.clasificados;
+package ttps.clasificados.model;
 
 public class Usuario {
 

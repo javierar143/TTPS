@@ -1,4 +1,4 @@
-package ttps.clasificados;
+package ttps.clasificados.servlets;
 
 import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;
